@@ -1,0 +1,2 @@
+# bus-ticket-reservationSystem
+It's a desktop based Software Application using raw &amp; advanced C# language. Normally it has two dashboard, one for user and another for admin dashboard. Admin can view all things and set/update/delete a route, seat and also payable amount where as user can buy a/multuple ticket but not more than 5 ticket for same time &amp; same route through providing some personal information and amount of their ticket.
