@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="busticket">
+  <DataContextMoniker Name="/busticketDataContext" />
+  <nestedChildShapes>
+    <classShape Id="97b4c13a-3a49-4623-9b65-72bed493ce49" absoluteBounds="0.5, 1.25, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/busticketDataContext/User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e9c947ae-a750-4f02-9fb1-3e7efc0d4320" absoluteBounds="0.515, 1.71, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="12e9dcbf-47f1-49af-ba75-b34e09ab29d6" absoluteBounds="2.75, 1, 2, 6.0015283203125">
+      <DataClassMoniker Name="/busticketDataContext/Trip" />
+      <nestedChildShapes>
+        <elementListCompartment Id="99ffe915-2264-4564-b1d1-64db1903f41a" absoluteBounds="2.765, 1.46, 1.9700000000000002, 5.4415283203125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

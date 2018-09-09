@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="BusTicketReserveDB" Class="busticketDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-GM337TE\SQLEXPRESS;Initial Catalog=BusTicketReserveDB;Integrated Security=False;User Id=sa;
+Password=hellobd789;MultipleActiveResultSets=True" SettingsObjectName="Testing.Properties.Settings" SettingsPropertyName="BusTicketReserveConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.[User]" Member="Users">
+    <Type Name="User">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="age" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="gender" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="contactno" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="email" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="password" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Trip" Member="Trips">
+    <Type Name="Trip">
+      <Column Name="id" Type="System.Decimal" DbType="Decimal NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="busName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="route" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="category" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="schedual" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="A1" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="A2" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="A3" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="A4" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="B1" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="B2" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="B3" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="B4" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="C1" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="C2" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="C3" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="C4" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="D1" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="D2" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="D3" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="D4" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="E1" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="E2" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="E3" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="E4" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="rent" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
